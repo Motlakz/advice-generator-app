@@ -1,0 +1,85 @@
+:root {
+    --font-family-monospace: monospace, Menlo, Monaco, Consolas;
+  }
+  
+  body {
+    background-color: hsl(218, 23%, 16%);
+    font-family: var(--font-family-monospace);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    border-radius: 16px;
+    background-color: hsl(217, 19%, 24%);
+    padding: 20px;
+    position: relative;
+    top: 200px;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .container span {
+    color: hsl(150, 100%, 66%);
+  }
+  .container p {
+    color: hsl(193, 38%, 86%);
+    font-weight: 800;
+    font-size: 28px;
+  }
+  .container .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container .icons img {
+    max-width: 100%;
+  }
+  .container .icons img:first-child {
+    background: url("/images/pattern-divider-desktop.svg") center center/cover no-repeat;
+  }
+  @media screen and (max-width: 600px) {
+    .container .icons img:first-child {
+      background: url("/images/pattern-divider-mobile.svg") center center/cover no-repeat;
+    }
+  }
+  .container .icons img:nth-child(2) {
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    padding: 15px;
+    height: 16px;
+    position: relative;
+    top: 40px;
+    width: 16px;
+  }
+  .container .icons img:nth-child(2):hover {
+    animation: glow 2s infinite;
+  }
+  
+  footer {
+    color: hsl(193, 38%, 86%);
+    position: absolute;
+    left: 40%;
+    top: 0%;
+  }
+  footer a {
+    color: hsl(150, 100%, 66%);
+  }
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 5px hsl(150, 100%, 66%);
+    }
+    50% {
+      box-shadow: 0 0 20px hsl(150, 100%, 66%), 0 0 30px hsl(150, 100%, 66%);
+    }
+    100% {
+      box-shadow: 0 0 5px hsl(150, 100%, 66%);
+    }
+  }
