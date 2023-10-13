@@ -29,8 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     // generates advice when clicked
-    const diceIcon = document.querySelector('.icons img:nth-child(2)'); // Select the dice icon
-    
+    const diceIcon = document.querySelector('.icons span img'); // Select the dice icon
+
     diceIcon.addEventListener('click', () => {
         getapi(api_url); // Fetch advice when the dice icon is clicked
     });

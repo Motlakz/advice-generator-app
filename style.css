@@ -56,19 +56,21 @@
       background: url("/images/pattern-divider-mobile.svg") center center/cover no-repeat;
     }
   }
-  .container .icons img:nth-child(2) {
+  .container .icons span {
     border-radius: 50%;
     background-color: hsl(150, 100%, 66%);
     padding: 15px;
-    height: 16px;
     position: relative;
     top: 40px;
-    width: 16px;
   }
-  .container .icons img:nth-child(2):hover {
+  .container .icons span:hover {
     animation: glow 2s infinite;
   }
-  
+
+  .icons img:hover {
+    transform: rotate(45deg);
+  }
+
   footer {
     color: hsl(193, 38%, 86%);
     position: absolute;
