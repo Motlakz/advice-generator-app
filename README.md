@@ -50,7 +50,7 @@ I learned how to use JavaScript promises in real time. Starting from how to send
 
 ### Continued development
 
-I will always take every opportunity to hone my JaaScript Skills from intermediate to advanced concepts. I hope to grow into frameworks as I build.
+I will always take every opportunity to hone my JavaScript Skills from intermediate to advanced concepts. I hope to grow into frameworks as I build.
 
 ### Useful resources
 
