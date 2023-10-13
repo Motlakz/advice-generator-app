@@ -37,7 +37,7 @@
     color: hsl(193, 38%, 86%);
     font-weight: 800;
     font-size: 28px;
-    margin-top: 20px;
+    margin: 20px 0;
   }
   .container .icons {
     display: flex;
