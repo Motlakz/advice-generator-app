@@ -32,18 +32,17 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Live Solution](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://motlakz.github.io/advice-generator/)
+- Live Site URL: [Live Site](https://motlakz.github.io/advice-generator-app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- SASS custom properties
+- CSS custom properties
 - CSS Flexbox
 - Mobile-first workflow
 - JavaScript promises and DOM Manipulation
-- [Sass](https://sass-lang.com/documentation/style-rules/declarations/) - For styles
 
 ### What I learned
 
